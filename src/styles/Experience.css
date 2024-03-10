@@ -1,0 +1,112 @@
+.experience-section-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 48px;
+}
+
+.experience-content{
+  display: flex;
+}
+.divider-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block-bullet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 16px;
+}
+
+.bullet{
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #2e2e48;
+}
+
+.divider{
+  height: 100%; 
+  width: 1px;
+  background-color: #f7f9fc;
+  margin-right: 6px;
+  margin-top: 2px;
+}
+
+.experience-card{
+  display: flex;
+  padding-bottom: 16px;
+}
+
+.experience-card-item{
+  display: flex;
+  flex-direction: column;
+  min-width: 242px;
+}
+
+.experience-card-block{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.experience-card-year{
+  color: #79819A;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1%;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.experience-card-name{
+  margin: 0;
+  color: #79819A;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1%;
+}
+
+.experience-card-img{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.experience-role{
+  font-size: 12px;
+  line-height: 16px;
+  color: #79819A;
+  font-weight: 400;
+  letter-spacing: 1%;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.experience-card-title{
+  color: #2E2E48;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 0;
+}
+
+.experience-location{
+  vertical-align: bottom;
+}
+
+@media (max-width: 1000px){
+  .experience-section-list{
+    padding-bottom: 20px;
+  }
+
+  .experience-card{
+    flex-direction: column;
+    gap: 6px;
+  }
+}

@@ -1,0 +1,118 @@
+.aside{
+  display: flex;
+  flex-direction: column;
+  max-width: 355px;
+  background-color: #F7FCFF;
+  padding: 48px 48px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-photo{
+  border-radius: 100%;
+  width: 96px;
+  height: 96px;
+}
+
+
+h1{
+  color: #2E2E48;
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -2%;
+}
+
+
+.summary{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  color: #47516B;
+  padding-bottom: 4px;
+}
+
+.infos,  .socials, .languages{
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+
+.info-card, .social-card, .language-card{
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.hobby-card{
+  display: flex;
+  align-items: center;
+  padding-bottom: 14px;
+}
+
+.card-img {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.info-about{
+  margin-left: 16px;
+}
+.title, .card-title{
+  color: #79819A;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.title-lang{
+  padding-bottom: 5px;
+}
+
+.infos-link, .title-text{
+  text-decoration: none;
+  color: #47516B;
+}
+
+.underline-link{
+  text-decoration: underline;
+}
+.card-title{
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1000px) {
+  .aside {
+    max-width: 100%;
+    padding: 24px 16px;
+  }
+
+  .header {
+    align-items: center;
+  }
+
+  .profile-photo {
+    width: 72px;
+    height: 72px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .summary {
+    font-size: 14px;
+    line-height: 18px;
+  } 
+}
+

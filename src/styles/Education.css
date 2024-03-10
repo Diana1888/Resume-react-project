@@ -1,0 +1,86 @@
+.education-card{
+  max-width: 230px;
+  padding: 16px 24px;
+  background-color: #F7F9FC;
+}
+
+.education-section-list{
+  display: flex;
+  gap: 10px;
+  padding-bottom: 48px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.education-card-item{
+  display: flex;
+  gap: 10px;
+}
+
+.education-card-subtitle{
+  color: #2E2E48;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 0;
+}
+
+.education-img{
+  width: 53px;
+  height: 53px;
+}
+.education-card-img {
+  width: 48px;
+  height: 48px;
+
+}
+
+.education-card-name{
+  color: #2E2E48;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.education-card-year{
+  color: #79819A;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1%;
+  padding: 4px 0px;
+  margin: 0;
+}
+
+.percentage{
+  color: #5D5FEF;
+  letter-spacing: 1%;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.education-card-score{
+  margin: 0;
+  color: #79819A;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1%;
+}
+
+@media (max-width: 1000px){
+  .education-section-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .education-card{
+    max-width: 100%;
+  }
+
+  .education-card-item {
+    max-width: 100%;
+  }
+}
+
