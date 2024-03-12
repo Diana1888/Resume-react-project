@@ -246,7 +246,7 @@ const mockData = {
       id: 8,
       img: postgresql,
       title: 'PostgreSQL',
-      subtitle: 'Pbject - relational database',
+      subtitle: 'Relational database',
     },
   ]
 

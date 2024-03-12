@@ -1,9 +1,8 @@
 import React from "react";
 import '../styles/Tools.css';
 
-const ToolsCard = ({ skill, index }) => {
-  const cardClass = index < 3 ? "tools-card-large" : "tools-card-small";
-
+const ToolsCard = ({ skill, cardClass}) => {
+  
   return (
     <div className="tools-card">
       <div className={cardClass} key={skill.id}>

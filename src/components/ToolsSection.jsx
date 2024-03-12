@@ -14,8 +14,9 @@ const ToolsSection = () => {
         <h2 className="section-title">Tools/Skills</h2>
         <div className="tools-section-list">
           {mockData.skills.map((skill, index) => {
+              const cardClass = index < 3 ? "tools-card-large" : "tools-card-small";
             return (
-              <ToolsCard key={skill.id} skill={skill} index={index} />
+              <ToolsCard key={skill.id} skill={skill} cardClass={cardClass} />
             );
           })}
         </div>
