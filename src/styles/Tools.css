@@ -15,17 +15,18 @@
 }
 
 .tools-card-large {
-  flex-grow: 1;
+  min-height: 129px;
   min-width: 227px;
   background-color: #f7f9fc;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 16px;
   gap: 4px;
 }
 
 .tools-card-small {
-  flex-grow: 1;
+  min-height: 109px;
   min-width: 113px;
   background-color: #f7f9fc;
   display: flex;

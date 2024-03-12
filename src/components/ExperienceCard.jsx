@@ -10,7 +10,7 @@ const ExperienceCard = ({ result }) => {
         </div>
         <div className="divider"></div>
       </div>
-      <div className="experience-card" key={result.id}>
+      <div className="experience-card">
         <div className="experience-card-item">
           <p className="experience-card-year">
             {result.year}{' '}

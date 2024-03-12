@@ -3,7 +3,7 @@ import '../styles/Certificate.css';
 const CertificateCard = ({ course }) => {
   return (
     <div className="certificate-card">
-      <div key={course.id}>
+      <div>
         <div className="certificate-card-item">
           <div className="certificate-card-content">
             <img

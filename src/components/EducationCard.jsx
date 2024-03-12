@@ -2,7 +2,7 @@ import '../styles/Education.css';
 
 const EducationCard = ({ school }) => {
   return (
-    <div className="education-card" key={school.id}>
+    <div className="education-card">
       <div className="education-card-item">
         <div className="education-img">
           <img

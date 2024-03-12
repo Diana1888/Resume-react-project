@@ -3,7 +3,7 @@ import '../styles/LatestProject.css';
 
 const LatestProjectCard = ({ project }) => {
   return (
-    <div className="project-card" key={project.id}>
+    <div className="project-card">
       <div className="project-card-item">
         <div className="project-card-content">
           <img
