@@ -25,6 +25,8 @@ import css from '../../public/assets/css.svg';
 import javascript from '../../public/assets/javascript.svg';
 import vscode from '../../public/assets/vscode.svg';
 import figma from '../../public/assets/figma.svg';
+import gittool from '../../public/assets/gittool.svg';
+import postgresql from '../../public/assets/postgresql.svg';
 
 const mockData = {
   infos : [
@@ -233,6 +235,18 @@ const mockData = {
       img: vscode,
       title: 'VS Code',
       subtitle: 'Code editor',
+    },
+    {
+      id: 7,
+      img: gittool,
+      title: 'Git',
+      subtitle: 'Version control',
+    },
+    {
+      id: 8,
+      img: postgresql,
+      title: 'PostgreSQL',
+      subtitle: 'Pbject - relational database',
     },
   ]
 

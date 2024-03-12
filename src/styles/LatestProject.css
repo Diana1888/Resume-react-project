@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 24px;
+  height: 100%;
 }
 
 .project-card-img{
@@ -49,10 +50,9 @@
 
 .project-link-content{
   display: flex;
-  align-items: center;
   gap: 10px;
   padding-top: 7px;
-
+  margin-top: auto;
 }
 
 .project-link{

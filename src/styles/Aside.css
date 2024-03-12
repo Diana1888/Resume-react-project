@@ -83,8 +83,14 @@ h1{
 }
 
 .underline-link{
+  color: #47516B;
   text-decoration: underline;
 }
+
+/* .underline-link:hover{
+  background-color: ;
+} */
+
 .card-title{
   margin-bottom: 20px;
 }
