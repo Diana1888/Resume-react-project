@@ -1,10 +1,10 @@
-.education-card{
+.education-card {
   max-width: 230px;
   padding: 16px 24px;
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
 }
 
-.education-section-list{
+.education-section-list {
   display: flex;
   gap: 10px;
   padding-bottom: 48px;
@@ -12,39 +12,38 @@
   overflow: hidden;
 }
 
-.education-card-item{
+.education-card-item {
   display: flex;
   gap: 10px;
 }
 
-.education-card-subtitle{
-  color: #2E2E48;
+.education-card-subtitle {
+  color: #2e2e48;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
   padding: 0;
 }
 
-.education-img{
+.education-img {
   width: 53px;
   height: 53px;
 }
 .education-card-img {
   width: 48px;
   height: 48px;
-
 }
 
-.education-card-name{
-  color: #2E2E48;
+.education-card-name {
+  color: #2e2e48;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
   margin-bottom: 0;
 }
 
-.education-card-year{
-  color: #79819A;
+.education-card-year {
+  color: #79819a;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 1%;
@@ -52,30 +51,30 @@
   margin: 0;
 }
 
-.percentage{
-  color: #5D5FEF;
+.percentage {
+  color: #5d5fef;
   letter-spacing: 1%;
   font-size: 12px;
   font-weight: 400;
 }
 
-.education-card-score{
+.education-card-score {
   margin: 0;
-  color: #79819A;
+  color: #79819a;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 1%;
 }
 
-@media (max-width: 1000px){
-  .education-section-list{
+@media (max-width: 1000px) {
+  .education-section-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 20px;
   }
-  .education-card{
+  .education-card {
     max-width: 100%;
   }
 
@@ -83,4 +82,3 @@
     max-width: 100%;
   }
 }
-

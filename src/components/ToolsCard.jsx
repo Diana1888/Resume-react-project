@@ -1,8 +1,6 @@
-import React from "react";
 import '../styles/Tools.css';
 
-const ToolsCard = ({ skill, cardClass}) => {
-  
+const ToolsCard = ({ skill, cardClass }) => {
   return (
     <div className="tools-card">
       <div className={cardClass} key={skill.id}>

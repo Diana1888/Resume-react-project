@@ -1,12 +1,9 @@
-import React from "react";
-import EducationCard from "./EducationCard";
+import EducationCard from './EducationCard';
 import '../styles/Education.css';
-import DividerCircle from "./DividerCircle";
-import mockData from "../mocks/mockdata";
-
+import DividerCircle from './DividerCircle';
+import mockData from '../mocks/mockdata';
 
 const EducationSection = () => {
-
   return (
     <div className="main-section">
       <DividerCircle />
@@ -14,9 +11,7 @@ const EducationSection = () => {
         <h2 className="section-title">Education</h2>
         <div className="education-section-list">
           {mockData.schools.map((school) => {
-            return (
-              <EducationCard key={school.id} school={school} />
-            );
+            return <EducationCard key={school.id} school={school} />;
           })}
         </div>
       </div>

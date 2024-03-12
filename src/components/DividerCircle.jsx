@@ -1,4 +1,3 @@
-import React from "react";
 import circle from '../../public/assets/circle.svg';
 
 const DividerCircle = () => {

@@ -1,22 +1,20 @@
-import React from "react";
+import React from 'react';
 import photo from '../../public/assets/photo.jpg';
-import mockData from "../mocks/mockdata";
+import mockData from '../mocks/mockdata';
 import '../styles/Aside.css';
 
-
-
 const Aside = () => {
-
-
-
   return (
     <div className="aside">
       <div className="header horizontal-line">
         <img className="profile-photo" src={photo} alt="photo" />
         <h1>Diana Ichmoukhametov</h1>
-        <h3 className="summary">Junior full-stack developer with a background in IT. With a strong foundation in technology and problem-solving skills, I'm equipped to tackle challenges in software development.  </h3>
+        <h3 className="summary">
+          Junior full-stack developer with a background in IT. With a strong
+          foundation in technology and problem-solving skills, I'm equipped to
+          tackle challenges in software development.{' '}
+        </h3>
       </div>
-
 
       <div className="infos horizontal-line">
         {mockData.infos.map((info) => {
@@ -27,13 +25,19 @@ const Aside = () => {
               </div>
               <div className="info-about">
                 <div className="title">{info.title}</div>
-                <a className={info.title === 'Website' ? 'underline-link' : 'infos-link'} href={info.href}>{info.text}</a>
+                <a
+                  className={
+                    info.title === 'Website' ? 'underline-link' : 'infos-link'
+                  }
+                  href={info.href}
+                >
+                  {info.text}
+                </a>
               </div>
             </div>
           );
         })}
       </div>
-
 
       <div className="socials horizontal-line">
         <div className="card-title">Socials</div>
@@ -45,7 +49,9 @@ const Aside = () => {
               </div>
               <div className="info-about">
                 <div className="title">{item.title}</div>
-                <a className="underline-link" href={item.link}>{item.text}</a>
+                <a className="underline-link" href={item.link}>
+                  {item.text}
+                </a>
               </div>
             </div>
           );
@@ -85,11 +91,8 @@ const Aside = () => {
           );
         })}
       </div>
-
     </div>
-
   );
-
 };
 
 export default Aside;

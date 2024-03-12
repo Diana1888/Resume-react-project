@@ -7,11 +7,10 @@ import LatestProjectSection from './components/LatestProjectSection';
 import ToolsSection from './components/ToolsSection';
 
 function App() {
-
   return (
-    <div className='container'>
+    <div className="container">
       <Aside />
-      <div className='sections'>
+      <div className="sections">
         <EducationSection />
         <ExperienceSection />
         <ToolsSection />

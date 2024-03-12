@@ -1,10 +1,10 @@
-.tools-card-img{
-width: 50px;
-height: 50px;
-padding-bottom: 5px;
+.tools-card-img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 5px;
 }
 
-.tools-section-list{
+.tools-section-list {
   display: flex;
   flex-wrap: wrap;
   min-width: 697px;
@@ -14,33 +14,33 @@ padding-bottom: 5px;
   padding-bottom: 48px;
 }
 
-.tools-card-large{
+.tools-card-large {
   flex-grow: 1;
   min-width: 227px;
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
   display: flex;
   flex-direction: column;
   padding: 16px;
   gap: 4px;
 }
 
-.tools-card-small{
+.tools-card-small {
   flex-grow: 1;
   min-width: 113px;
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
   display: flex;
   flex-direction: column;
   padding: 16px;
 }
 
-.tools-card-item{
+.tools-card-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.tools-card-title{
-  color: #2E2E48;
+.tools-card-title {
+  color: #2e2e48;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -48,8 +48,8 @@ padding-bottom: 5px;
   padding: 3px 0px;
 }
 
-.tools-card-subtitle{
-  color: #79819A;
+.tools-card-subtitle {
+  color: #79819a;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 1%;
@@ -60,14 +60,15 @@ padding-bottom: 5px;
   flex: 1;
 }
 
-@media (max-width: 1000px){
-  .tools-card-large, .tools-card-small{
+@media (max-width: 1000px) {
+  .tools-card-large,
+  .tools-card-small {
     max-width: 100%;
   }
-  .tools-section-list{
+
+  .tools-section-list {
     flex-direction: column;
     padding-bottom: 20px;
     min-width: 100%;
   }
-
 }

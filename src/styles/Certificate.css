@@ -1,74 +1,73 @@
-.certificate-card-img{
+.certificate-card-img {
   width: 50px;
   height: 50px;
   padding-bottom: 5px;
-  }
-  
-  .certificate-section-list{
+}
+
+.certificate-section-list {
+  display: flex;
+  min-width: 697px;
+  gap: 6px;
+}
+
+.certificate-card {
+  padding: 0px 24px 6px;
+}
+
+.certificate-card-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f9fc;
+  min-width: 641px;
+  padding: 15px 23px;
+  border-radius: 4px 4px 0 0;
+}
+
+.certificate-card-title {
+  color: #79819a;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1%;
+  margin: 0;
+}
+
+.certificate-card-subtitle {
+  color: #2e2e48;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.certificate-card-year {
+  color: #47516b;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1%;
+  margin: 0;
+}
+
+.certificate-card-content {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .certificates-section-list {
     display: flex;
-    min-width: 697px;
-    gap: 6px;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .certificate-card {
+    max-width: 100%;
+    padding: 5px 0;
   }
 
-  .certificate-card{
-    padding: 0px 24px 6px ;
-
+  .certificate-card-item {
+    min-width: 100%;
   }
-    
-  .certificate-card-item{
-    display: flex;
-    justify-content: space-between;
-    background-color: #F7F9FC;
-    min-width: 641px;
-    padding: 15px 23px;
-    border-radius: 4px 4px 0 0;
-  }
-  
-  .certificate-card-title{
-    color: #79819A;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 1%;
-    margin: 0;
-  }
-  
-  .certificate-card-subtitle{
-    color: #2E2E48;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 19px;
-    margin: 0;
-    padding-top: 6px ;
-  }
-
-  .certificate-card-year{
-    color: #47516B;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 1%;
-    margin: 0;
-  }
-
-  .certificate-card-content{
-    display: flex;
-    gap: 10px;
-  }
-
-  @media (max-width: 1000px){
-    .certificates-section-list{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding-bottom: 20px;
-    }
-    .certificate-card{
-      max-width: 100%;
-      padding: 5px 0;
-    }
-  
-    .certificate-card-item {
-      min-width: 100%;
-    }
-  }
+}

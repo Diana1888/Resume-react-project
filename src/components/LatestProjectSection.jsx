@@ -1,12 +1,9 @@
-import React from "react";
 import '../styles/LatestProject.css';
-import LatestProjectCard from "./LatestProjectCard";
-import DividerCircle from "./DividerCircle";
-import mockData from "../mocks/mockdata";
-
+import LatestProjectCard from './LatestProjectCard';
+import DividerCircle from './DividerCircle';
+import mockData from '../mocks/mockdata';
 
 const LatestProjectSection = () => {
-
   return (
     <div className="main-section">
       <DividerCircle />
@@ -14,9 +11,7 @@ const LatestProjectSection = () => {
         <h2 className="section-title">Latest projects</h2>
         <div className="projects-section-list">
           {mockData.projects.map((project) => {
-            return (
-              <LatestProjectCard key={project.id} project={project} />
-            );
+            return <LatestProjectCard key={project.id} project={project} />;
           })}
         </div>
       </div>

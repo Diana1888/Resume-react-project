@@ -1,4 +1,3 @@
-import React from "react";
 import location from '../../public/assets/location.svg';
 import '../styles/Experience.css';
 
@@ -13,9 +12,21 @@ const ExperienceCard = ({ result }) => {
       </div>
       <div className="experience-card" key={result.id}>
         <div className="experience-card-item">
-          <p className="experience-card-year">{result.year}   <img className="experience-location" src={location} alt="location" />  <span>Online</span> </p>
+          <p className="experience-card-year">
+            {result.year}{' '}
+            <img
+              className="experience-location"
+              src={location}
+              alt="location"
+            />{' '}
+            <span>Online</span>{' '}
+          </p>
           <div className="experience-card-block">
-            <img className="experience-card-img" src={result.img} alt={result.title} />
+            <img
+              className="experience-card-img"
+              src={result.img}
+              alt={result.title}
+            />
             <div className="experience-card-subtitle">
               <p className="experience-role">{result.role}</p>
               <p className="experience-card-title">{result.title}</p>

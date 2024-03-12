@@ -1,55 +1,57 @@
-.aside{
+.aside {
   display: flex;
   flex-direction: column;
   max-width: 355px;
-  background-color: #F7FCFF;
+  background-color: #f7fcff;
   padding: 48px 48px;
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.profile-photo{
+.profile-photo {
   border-radius: 100%;
   width: 96px;
   height: 96px;
 }
 
-
-h1{
-  color: #2E2E48;
-  font-family: "Outfit", sans-serif;
+h1 {
+  color: #2e2e48;
+  font-family: 'Outfit', sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: -2%;
 }
 
-
-.summary{
+.summary {
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 2%;
-  color: #47516B;
+  color: #47516b;
   padding-bottom: 4px;
 }
 
-.infos,  .socials, .languages{
+.infos,
+.socials,
+.languages {
   padding-top: 32px;
   padding-bottom: 10px;
 }
 
-.info-card, .social-card, .language-card{
+.info-card,
+.social-card,
+.language-card {
   display: flex;
   align-items: center;
   padding-bottom: 24px;
 }
 
-.hobby-card{
+.hobby-card {
   display: flex;
   align-items: center;
   padding-bottom: 14px;
@@ -63,27 +65,28 @@ h1{
   align-items: center;
 }
 
-
-.info-about{
+.info-about {
   margin-left: 16px;
 }
-.title, .card-title{
-  color: #79819A;
+.title,
+.card-title {
+  color: #79819a;
   font-size: 12px;
   padding-bottom: 5px;
 }
 
-.title-lang{
+.title-lang {
   padding-bottom: 5px;
 }
 
-.infos-link, .title-text{
+.infos-link,
+.title-text {
   text-decoration: none;
-  color: #47516B;
+  color: #47516b;
 }
 
-.underline-link{
-  color: #47516B;
+.underline-link {
+  color: #47516b;
   text-decoration: underline;
 }
 
@@ -91,10 +94,9 @@ h1{
   background-color: ;
 } */
 
-.card-title{
+.card-title {
   margin-bottom: 20px;
 }
-
 
 @media (max-width: 1000px) {
   .aside {
@@ -119,6 +121,5 @@ h1{
   .summary {
     font-size: 14px;
     line-height: 18px;
-  } 
+  }
 }
-

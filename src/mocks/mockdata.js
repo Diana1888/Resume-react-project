@@ -29,7 +29,7 @@ import gittool from '../../public/assets/gittool.svg';
 import postgresql from '../../public/assets/postgresql.svg';
 
 const mockData = {
-  infos : [
+  infos: [
     {
       id: 1,
       img: email,
@@ -60,7 +60,7 @@ const mockData = {
     }
   ],
 
-  socials : [
+  socials: [
     {
       id: 1,
       img: instagram,
@@ -82,10 +82,10 @@ const mockData = {
       title: 'Linkedin',
       link: 'https://www.linkedin.com/in/diana-ichmoukhametov/',
       text: '@diana-ichmoukhametov'
-    },
+    }
   ],
 
-  languages : [
+  languages: [
     {
       id: 1,
       img: russian,
@@ -100,7 +100,7 @@ const mockData = {
     }
   ],
 
-  hobbies : [
+  hobbies: [
     {
       id: 1,
       img: earth,
@@ -115,10 +115,10 @@ const mockData = {
       id: 3,
       img: brush,
       title: 'Painting'
-    },
+    }
   ],
 
-  courses : [
+  courses: [
     {
       id: 1,
       img: freecodecamp,
@@ -132,10 +132,10 @@ const mockData = {
       title: 'CanSheCode',
       subtitle: 'Front-end web development',
       year: 'Jan 2022 - June 2022'
-    },
+    }
   ],
 
-  schools : [
+  schools: [
     {
       id: 1,
       img: ufa,
@@ -155,14 +155,15 @@ const mockData = {
     }
   ],
 
-  results : [
+  results: [
     {
       id: 1,
       img: git,
       title: 'Github',
       role: 'Hacktoberfest Contributor',
       year: 'Oct 2021 - Nov 2021',
-      description: "Contributed 8 PR's in various open source projects. Great experience and learning alot about working with Github and open-source. Connecting with developers"
+      description:
+        "Contributed 8 PR's in various open source projects. Great experience and learning alot about working with Github and open-source. Connecting with developers"
     },
     {
       id: 2,
@@ -170,7 +171,8 @@ const mockData = {
       title: 'Winter of Code',
       role: 'Contributor',
       year: 'Jan 2021 - March 2021',
-      description: "Overwhelming to be a part of DSC NSEC project - DSC NSEC Algorithms for Winter of Code 2020. First introduction to Git and Github. How github is used by most of the programmers in order to manage the projects."
+      description:
+        'Overwhelming to be a part of DSC NSEC project - DSC NSEC Algorithms for Winter of Code 2020. First introduction to Git and Github. How github is used by most of the programmers in order to manage the projects.'
     },
     {
       id: 3,
@@ -178,11 +180,12 @@ const mockData = {
       title: 'Google',
       role: '30Days of Google Cloud',
       year: 'Oct 2020 - Dec 2020',
-      description: "Hands on practice on Google Cloud Platform - the tool that powers apps like Google Search, Gmail and YouTube. As part of the program had learned the concepts like computing, application development, big data & machine learning using cloud."
-    },
+      description:
+        'Hands on practice on Google Cloud Platform - the tool that powers apps like Google Search, Gmail and YouTube. As part of the program had learned the concepts like computing, application development, big data & machine learning using cloud.'
+    }
   ],
 
-  projects : [
+  projects: [
     {
       id: 1,
       img: portfolio,
@@ -194,62 +197,62 @@ const mockData = {
       id: 2,
       img: instastaff,
       title: 'Instastaff',
-      subtitle: 'InstaStaff is an app that facilitates the efficient exchange of labor and work in the medical service field.',
+      subtitle:
+        'InstaStaff is an app that facilitates the efficient exchange of labor and work in the medical service field.',
       link: 'https://github.com/dialop/instastaff'
     }
   ],
 
-  skills : [
+  skills: [
     {
       id: 1,
       img: figma,
       title: 'Figma',
-      subtitle: 'Web UI Design, Prototyping',
+      subtitle: 'Web UI Design, Prototyping'
     },
     {
       id: 2,
       img: javascript,
       title: 'Javascript',
-      subtitle: 'ES6',
+      subtitle: 'ES6'
     },
     {
       id: 3,
       img: react,
       title: 'React',
-      subtitle: 'JavaScript framework',
+      subtitle: 'JavaScript framework'
     },
     {
       id: 4,
       img: html,
       title: 'HTML 5',
-      subtitle: 'Structural Design',
+      subtitle: 'Structural Design'
     },
     {
       id: 5,
       img: css,
       title: 'CSS 3',
-      subtitle: 'Style Design',
+      subtitle: 'Style Design'
     },
     {
       id: 6,
       img: vscode,
       title: 'VS Code',
-      subtitle: 'Code editor',
+      subtitle: 'Code editor'
     },
     {
       id: 7,
       img: gittool,
       title: 'Git',
-      subtitle: 'Version control',
+      subtitle: 'Version control'
     },
     {
       id: 8,
       img: postgresql,
       title: 'PostgreSQL',
-      subtitle: 'Relational database',
-    },
+      subtitle: 'Relational database'
+    }
   ]
-
-}
+};
 
 export default mockData;
