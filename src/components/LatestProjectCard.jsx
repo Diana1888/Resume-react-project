@@ -2,7 +2,7 @@ import React from "react";
 import linklogo from '../../public/assets/linklogo.svg';
 import '../styles/LatestProject.css';
 
-const LatsestProjectCard = ({ project }) => {
+const LatestProjectCard = ({ project }) => {
 
   return (
     <div className="project-card" key={project.id}>
@@ -22,4 +22,4 @@ const LatsestProjectCard = ({ project }) => {
   );
 };
 
-export default LatsestProjectCard;
+export default LatestProjectCard;
