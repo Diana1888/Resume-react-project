@@ -4,6 +4,7 @@
   padding-bottom: 48px;
   border-radius: 5px;
   overflow: hidden;
+  padding-left: 52px;
 }
 
 .project-card-item {
@@ -72,6 +73,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 20px;
+    padding-left: 0;
   }
   .project-card {
     max-width: 100%;

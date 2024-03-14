@@ -1,8 +1,8 @@
 import './App.css';
 import Aside from './components/Aside';
+import ExperienceSection from './components/ExperienceSection';
 import CertificatesSection from './components/CertificatesSection';
 import EducationSection from './components/EducationSection';
-import ExperienceSection from './components/ExperienceSection';
 import LatestProjectSection from './components/LatestProjectSection';
 import ToolsSection from './components/ToolsSection';
 

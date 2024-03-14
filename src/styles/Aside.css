@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 355px;
   background-color: #f7fcff;
-  padding: 48px 48px;
+  padding: 48px;
 }
 
 .header {
@@ -68,6 +68,7 @@ h1 {
 .info-about {
   margin-left: 16px;
 }
+
 .title,
 .card-title {
   color: #79819a;

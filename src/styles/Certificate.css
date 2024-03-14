@@ -4,10 +4,11 @@
   padding-bottom: 5px;
 }
 
-.certificate-section-list {
+.certificates-section-list {
   display: flex;
+  flex-direction: column;
   min-width: 697px;
-  gap: 6px;
+  padding-left: 52px;
 }
 
 .certificate-card {
@@ -61,6 +62,7 @@
     flex-direction: column;
     width: 100%;
     padding-bottom: 20px;
+    padding-left: 0;
   }
   .certificate-card {
     max-width: 100%;

@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 20px;
   padding-bottom: 48px;
+  padding-left: 52px;
 }
 
 .experience-content {
@@ -103,6 +104,7 @@
 @media (max-width: 1000px) {
   .experience-section-list {
     padding-bottom: 20px;
+    padding-left: 0;
   }
 
   .experience-card {
