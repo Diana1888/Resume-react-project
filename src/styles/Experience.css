@@ -111,4 +111,16 @@
     flex-direction: column;
     gap: 6px;
   }
+
+  .experience-card-item{
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .experience-card-name{
+    font-size: 10px;
+  }
+
+
 }

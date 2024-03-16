@@ -92,12 +92,25 @@ h1 {
   text-decoration: underline;
 }
 
-/* .underline-link:hover{
-  background-color: ;
-} */
 
 .card-title {
   margin-bottom: 20px;
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+  .info-columns{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); 
+}
+
+.socials{
+  padding-top: 55px;
+}
+
+.hobbies{
+  padding-top: 30px;
+}
+
 }
 
 @media (max-width: 1000px) {
@@ -107,7 +120,6 @@ h1 {
   .header {
     align-items: center;
   }
-
 
 }
 
@@ -131,9 +143,11 @@ h1 {
     padding: 24px;
   }
 
-  .info-columns{
-    display: flex;
-    flex-direction: column;
-  }
 }
 
+@media (max-width: 1000px) {
+  .infos-link, .underline-link, .title-text{
+    font-size: 12px;
+  }
+
+}
