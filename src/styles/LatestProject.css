@@ -84,10 +84,20 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .project-link {
+    font-size: 12px; 
+  }
+}
+
 @media (max-width: 340px) {
   .project-card-content {
     max-width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  .project-card-item {
+    padding: 14px;
   }
 }

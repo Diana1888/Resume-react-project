@@ -103,13 +103,15 @@ h1 {
 @media (max-width: 1000px) {
   .aside {
     max-width: 100%;
-    padding: 24px 16px;
   }
-
   .header {
     align-items: center;
   }
 
+
+}
+
+@media (max-width: 1000px) {
   .profile-photo {
     width: 72px;
     height: 72px;
@@ -124,4 +126,14 @@ h1 {
     font-size: 14px;
     line-height: 18px;
   }
+
+  .aside{
+    padding: 24px;
+  }
+
+  .info-columns{
+    display: flex;
+    flex-direction: column;
+  }
 }
+

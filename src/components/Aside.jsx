@@ -11,7 +11,8 @@ const Aside = () => {
       <div className="header horizontal-line">
         <Header />
       </div>
-
+      <div className='info-columns'>
+        <div>
       <div className="infos horizontal-line">
         {mockData.infos.map((info) => {
           return <InfosCard info={info} key={info.id} />;
@@ -24,7 +25,8 @@ const Aside = () => {
           return <InfosCard info={info} key={info.id} />;
         })}
       </div>
-
+      </div>
+      <div>
       <div className="languages">
         <div className="card-title">Languages</div>
         {mockData.languages.map((item) => {
@@ -38,6 +40,8 @@ const Aside = () => {
           return <HobbiesCard item={item} key={item.id} />;
         })}
       </div>
+      </div>
+    </div>
     </div>
   );
 };
