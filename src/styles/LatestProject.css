@@ -85,10 +85,10 @@
 
 @media screen and (max-width: 600px) {
   .project-link {
-    font-size: 12px; 
+    font-size: 12px;
   }
 
-  .project-card{
+  .project-card {
     min-width: 100%;
   }
 }
@@ -103,5 +103,4 @@
   .project-card-item {
     padding: 14px;
   }
-
 }
