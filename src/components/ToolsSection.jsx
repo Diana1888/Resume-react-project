@@ -1,6 +1,6 @@
 import '../styles/Tools.css';
 import ToolsCard from './ToolsCard';
-import mockData from '../mocks/mockdata';
+import constants from '../constants/constants';
 
 const ToolsSection = () => {
   return (
@@ -8,7 +8,7 @@ const ToolsSection = () => {
       <div className="section-content">
         <h2 className="section-title">Tools/Skills</h2>
         <div className="tools-section-list">
-          {mockData.skills.map((skill, index) => {
+          {constants.skills.map((skill, index) => {
             const cardClass =
               index < 3 ? 'tools-card-large' : 'tools-card-small';
             return (

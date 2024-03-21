@@ -1,4 +1,4 @@
-import photo from '../../public/assets/photo.jpg';
+import photo from '../assets/photo.jpg';
 import '../styles/Aside.css';
 
 const Header = () => {

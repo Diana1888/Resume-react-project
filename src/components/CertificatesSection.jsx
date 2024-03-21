@@ -1,6 +1,6 @@
 import '../styles/Certificate.css';
 import CertificateCard from './CertificatesCard';
-import mockData from '../mocks/mockdata';
+import constants from '../constants/constants';
 
 const CertificatesSection = () => {
   return (
@@ -8,7 +8,7 @@ const CertificatesSection = () => {
       <div className="section-content">
         <h2 className="section-title">Certificates & Awards</h2>
         <div className="certificates-section-list">
-          {mockData.courses.map((course) => {
+          {constants.courses.map((course) => {
             return <CertificateCard key={course.id} course={course} />;
           })}
         </div>

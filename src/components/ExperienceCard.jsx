@@ -1,4 +1,4 @@
-import location from '../../public/assets/location.svg';
+import location from '../assets/location.svg';
 import '../styles/Experience.css';
 
 const ExperienceCard = ({ result }) => {

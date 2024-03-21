@@ -1,6 +1,6 @@
 import EducationCard from './EducationCard';
 import '../styles/Education.css';
-import mockData from '../mocks/mockdata';
+import constants from '../constants/constants';
 
 const EducationSection = () => {
   return (
@@ -8,7 +8,7 @@ const EducationSection = () => {
       <div className="section-content">
         <h2 className="section-title">Education</h2>
         <div className="education-section-list">
-          {mockData.schools.map((school) => {
+          {constants.schools.map((school) => {
             return <EducationCard key={school.id} school={school} />;
           })}
         </div>

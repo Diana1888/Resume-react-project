@@ -1,4 +1,4 @@
-import linklogo from '../../public/assets/linklogo.svg';
+import linklogo from '../assets/linklogo.svg';
 import '../styles/LatestProject.css';
 
 const LatestProjectCard = ({ project }) => {

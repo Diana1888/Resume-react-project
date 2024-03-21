@@ -1,34 +1,34 @@
-import email from '../../public/assets/email.svg';
-import website from '../../public/assets/website.svg';
-import phone from '../../public/assets/phone.svg';
-import city from '../../public/assets/city.svg';
-import instagram from '../../public/assets/instagram.svg';
-import github from '../../public/assets/github.svg';
-import linkedin from '../../public/assets/linkedin.svg';
-import russian from '../../public/assets/russian.svg';
-import english from '../../public/assets/english.svg';
-import brush from '../../public/assets/brush.svg';
-import earth from '../../public/assets/earth.svg';
-import play from '../../public/assets/play.svg';
-import freecodecamp from '../../public/assets/freecodecamp.svg';
-import canshecode from '../../public/assets/canshecode.svg';
-import ufa from '../../public/assets/ufa.svg';
-import LHL from '../../public/assets/LHL.svg';
-import git from '../../public/assets/git.svg';
-import google from '../../public/assets/google.svg';
-import winter from '../../public/assets/winter.svg';
-import portfolio from '../../public/assets/portfolio.svg';
-import instastaff from '../../public/assets/instastaff.svg';
-import react from '../../public/assets/react.svg';
-import html from '../../public/assets/html.svg';
-import css from '../../public/assets/css.svg';
-import javascript from '../../public/assets/javascript.svg';
-import vscode from '../../public/assets/vscode.svg';
-import figma from '../../public/assets/figma.svg';
-import gittool from '../../public/assets/gittool.svg';
-import postgresql from '../../public/assets/postgresql.svg';
+import email from '../assets/email.svg';
+import website from '../assets/website.svg';
+import phone from '../assets/phone.svg';
+import city from '../assets/city.svg';
+import instagram from '../assets/instagram.svg';
+import github from '../assets/github.svg';
+import linkedin from '../assets/linkedin.svg';
+import russian from '../assets/russian.svg';
+import english from '../assets/english.svg';
+import brush from '../assets/brush.svg';
+import earth from '../assets/earth.svg';
+import play from '../assets/play.svg';
+import freecodecamp from '../assets/freecodecamp.svg';
+import canshecode from '../assets/canshecode.svg';
+import ufa from '../assets/ufa.svg';
+import LHL from '../assets/LHL.svg';
+import git from '../assets/git.svg';
+import google from '../assets/google.svg';
+import winter from '../assets/winter.svg';
+import portfolio from '../assets/portfolio.svg';
+import instastaff from '../assets/instastaff.svg';
+import react from '../assets/react.svg';
+import html from '../assets/html.svg';
+import css from '../assets/css.svg';
+import javascript from '../assets/javascript.svg';
+import vscode from '../assets/vscode.svg';
+import figma from '../assets/figma.svg';
+import gittool from '../assets/gittool.svg';
+import postgresql from '../assets/postgresql.svg';
 
-const mockData = {
+const constants = {
   infos: [
     {
       id: 1,
@@ -255,4 +255,4 @@ const mockData = {
   ]
 };
 
-export default mockData;
+export default constants;

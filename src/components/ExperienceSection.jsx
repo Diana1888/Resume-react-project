@@ -1,6 +1,6 @@
 import '../styles/Experience.css';
 import ExperienceCard from './ExperienceCard';
-import mockData from '../mocks/mockdata';
+import constants from '../constants/constants';
 
 const ExperienceSection = () => {
   return (
@@ -8,7 +8,7 @@ const ExperienceSection = () => {
       <div className="section-content">
         <h2 className="section-title">Achievements</h2>
         <div className="experience-section-list">
-          {mockData.results.map((result) => {
+          {constants.results.map((result) => {
             return <ExperienceCard key={result.id} result={result} />;
           })}
         </div>
