@@ -8,9 +8,7 @@ import LanguageCard from './LanguageCard';
 const Aside = () => {
   return (
     <div className="aside">
-      <div className="header horizontal-line">
         <Header />
-      </div>
       <div className="info-columns">
         <div className="infos horizontal-line">
           {constants.infos.map((info) => {

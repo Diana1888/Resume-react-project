@@ -3,7 +3,7 @@ import '../styles/Aside.css';
 
 const Header = () => {
   return (
-    <>
+    <div className="header horizontal-line">
       <img className="profile-photo" src={photo} alt="photo" />
       <h1>Diana Ichmoukhametov</h1>
       <h3 className="summary">
@@ -11,7 +11,7 @@ const Header = () => {
         foundation in technology and problem-solving skills, I am equipped to
         tackle challenges in software development.{' '}
       </h3>
-    </>
+    </div>
   );
 };
 

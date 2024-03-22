@@ -1,19 +1,17 @@
 import EducationCard from './EducationCard';
 import '../styles/Education.css';
 import constants from '../constants/constants';
+import Section from './Section';
 
 const EducationSection = () => {
   return (
-    <div className="main-section">
-      <div className="section-content">
-        <h2 className="section-title">Education</h2>
-        <div className="education-section-list">
-          {constants.schools.map((school) => {
-            return <EducationCard key={school.id} school={school} />;
-          })}
-        </div>
+    <Section title="Education">
+      <div className="education-section-list">
+        {constants.schools.map((school) => (
+          <EducationCard key={school.id} school={school} />
+        ))}
       </div>
-    </div>
+    </Section>
   );
 };
 
