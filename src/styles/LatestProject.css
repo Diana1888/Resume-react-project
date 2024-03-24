@@ -65,6 +65,17 @@
   gap: 15px;
 }
 
+@media (min-width: 1001px)  and (max-width: 1250px){
+  .projects-section-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .project-card {
+    min-width: 100%;
+  }
+}
+
 @media (max-width: 1000px) {
   .projects-section-list {
     display: flex;

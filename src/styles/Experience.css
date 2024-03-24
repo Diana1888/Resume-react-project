@@ -1,5 +1,6 @@
 .experience-section-list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
   padding-bottom: 48px;
@@ -101,6 +102,9 @@
   vertical-align: bottom;
 }
 
+
+
+
 @media (max-width: 1000px) {
   .experience-section-list {
     padding-bottom: 20px;
@@ -121,4 +125,16 @@
   .experience-card-name {
     font-size: 10px;
   }
+}
+
+
+@media (min-width: 1001px ) and (max-width: 1198px) {
+  /* .experience-card {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .experience-card-item {
+    min-width: 100%;
+  } */
 }

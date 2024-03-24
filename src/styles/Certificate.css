@@ -6,12 +6,14 @@
 
 .certificates-section-list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  min-width: 697px;
+  min-width: 100%;
   padding-left: 52px;
 }
 
 .certificate-card {
+  width: 100%;
   padding: 0px 24px 6px;
 }
 
@@ -19,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   background-color: #f7f9fc;
-  min-width: 641px;
   padding: 15px 23px;
   border-radius: 4px 4px 0 0;
 }

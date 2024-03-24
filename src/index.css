@@ -32,10 +32,6 @@ body {
   padding-bottom: 10px;
 }
 
-.main-section {
-  display: flex;
-}
-
 .divider-circle {
   display: flex;
   flex-direction: column;

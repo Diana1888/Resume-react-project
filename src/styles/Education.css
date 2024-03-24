@@ -6,6 +6,7 @@
 
 .education-section-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   padding-bottom: 48px;
   border-radius: 5px;
@@ -66,6 +67,13 @@
   font-weight: 400;
   letter-spacing: 1%;
 }
+
+@media (min-width: 1001px)  and (max-width: 1198px){
+  .education-card {
+    min-width: 100%;
+  }
+}
+
 
 @media (max-width: 1000px) {
   .education-section-list {

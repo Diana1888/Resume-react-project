@@ -62,6 +62,12 @@
   flex: 1;
 }
 
+@media (min-width: 1001px)  and (max-width: 1198px){
+  .tools-section-list {
+    min-width: 100%;
+  }
+}
+
 @media (min-width: 500px) and (max-width: 1000px) {
   .tools-section-list {
     display: grid;
