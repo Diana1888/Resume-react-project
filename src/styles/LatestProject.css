@@ -25,7 +25,7 @@
 
 .project-card {
   background-color: #f7f9fc;
-  min-width: 342px;
+  max-width: 342px;
 }
 
 .project-card-title {
@@ -65,7 +65,8 @@
   gap: 15px;
 }
 
-@media (min-width: 1001px)  and (max-width: 1198px){
+
+@media (min-width: 1001px)  and (max-width: 1197px){
   .projects-section-list {
     flex-wrap: wrap;
     flex-direction: column;
