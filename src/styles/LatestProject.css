@@ -65,7 +65,7 @@
   gap: 15px;
 }
 
-@media (min-width: 1001px)  and (max-width: 1250px){
+@media (min-width: 1001px)  and (max-width: 1198px){
   .projects-section-list {
     flex-wrap: wrap;
     flex-direction: column;
